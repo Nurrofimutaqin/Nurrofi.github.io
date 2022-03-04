@@ -1,0 +1,121 @@
+
+    .nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        width: 100%;
+        position: fixed;
+    }
+    
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover:not(.active) {
+        background-color: #111;
+    }
+    
+    .nav .active {
+        background-color: #04AA6D;
+    }
+    .container{
+        background-color: whitesmoke;
+    }
+    .main{
+        text-align: center;
+        background-image: url("https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2021/03/02/88d40aa2-715d-46fa-8a14-c93197c63987-1614692773842-c2806f604d37eb77321ad126cf294dec.jpg");
+        background-repeat: no-repeat;
+        color: beige;
+    }
+    .main img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+    hr{
+        border: beige solid 3px;
+        width: 250px;
+    }
+    .about{
+        padding: 10px 30px 10px 30px;
+    }
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        
+        width: 180px;
+        
+      }
+    div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+    .box{
+        margin-left: 10px;
+    }
+    .box h1{
+        text-align: center;
+    }
+    #form {
+        border-radius: 20px;
+        background-color: aquamarine;
+        padding: 20px;
+        width: 60%;
+        margin-left: 50px;
+        margin-top: 15px;
+        text-transform: capitalize;
+        box-shadow: 4px 4px 10px purple ;
+        margin-bottom: 30px;
+        margin-left: 20%;
+        
+    }
+    
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+        width: 100%;
+        background-color: blue;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    #country{
+        cursor: pointer;
+    }
+    input[type=submit]:hover {
+        background-color: skyblue;
+    }
+    footer{
+        background-color: black;
+        text-align: center;
+        color: white;
+        padding: 10px;
+       
+    }
